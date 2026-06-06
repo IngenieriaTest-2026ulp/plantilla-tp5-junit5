@@ -66,10 +66,17 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
+                    <!-- TRUE: Muestra los prints directamente en la consola de NetBeans -->
                     <redirectTestOutputToFile>false</redirectTestOutputToFile>
+                    <!-- Configuración para que muestre los @DisplayName en sistemas compatibles -->
+                    <properties>
+                        <configurationParameters>
+                            junit.jupiter.displayname.generator.default = org.junit.jupiter.api.DisplayNameGenerator$Standard
+                        </configurationParameters>
+                    </properties>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <name>TP5_Grupo15</name>
+    <name>plantilla-tp5-junit5</name>
 </project>

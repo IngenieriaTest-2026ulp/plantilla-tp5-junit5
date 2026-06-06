@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package com.ulp;
 
 import org.junit.jupiter.api.AfterEach;
@@ -15,9 +11,6 @@ import org.junit.jupiter.api.DisplayName;
 
 import org.junit.jupiter.api.Timeout;
 import java.util.concurrent.TimeUnit;
-
-
-//estoy probando ;)
 
 /**
  *
@@ -41,7 +34,7 @@ public class BateriaTest {
         System.out.println("FIN de las pruebas");
     }
     
-    @BeforeEach
+   @BeforeEach
     public void setUp() {
          System.out.printf("Hola %s, recorres %d metros.", "Juanjo", metros);
        }

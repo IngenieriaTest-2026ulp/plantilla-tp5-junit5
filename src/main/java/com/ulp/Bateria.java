@@ -5,8 +5,7 @@ package com.ulp;
  * @author juanj
  */
 public class Bateria {
-    double carga = 0.0;
-    // El alumno debe completar este método para que la prueba pase
+    double carga;
     
     public double cargar(int metros, double voltaje) {
     // SI EL VOLTAJE ES NEGATIVO, LANZAMOS LA EXCEPCIÓN ESPERADA
